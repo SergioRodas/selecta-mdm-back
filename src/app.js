@@ -10,7 +10,7 @@ const app = express();
 
 app.use(cors({
   //Configuración de CORS especifica
-  origin: "http://localhost:4003", 
+  origin: "https://selecta-mdm-front.vercel.app", 
   
   methods: "GET,PUT,PATCH,POST,DELETE",
  
